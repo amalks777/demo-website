@@ -1,0 +1,26 @@
+
+#image{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 600px;
+    background-color: grey;
+}
+
+ #btncolor, #btncol{
+    background-color: rgb(88, 143, 236);
+ }
+
+ @media (max-width : 480px){
+    #image{
+        display: flex;
+        flex-wrap: wrap;
+         height: 25%;
+         width: 25%;
+    }
+ }
+ #secondImage{
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 50px;
+ }
