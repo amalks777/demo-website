@@ -1,4 +1,6 @@
-
+html,body {
+   overflow-x: hidden;
+}
 #image{
     display: flex;
     flex-wrap: wrap;
@@ -23,4 +25,8 @@
     height: 350px;
     margin-top: 5px;
     margin-left: 50px;
+    /* align-items:; */
+ }
+ #image2{
+mix-blend-mode: multiply;
  }
